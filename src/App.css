@@ -2,37 +2,69 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Css para pagina de las horas */
+
+body {
+  background-color: #F2F3F7;
+  font-size: 17px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.logo{
+  width: 186px;
+  height: 51px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.items{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* recuerda adaptar un position fixed para que se mueva el nav mientras se scrolea la pagina */
+
+.nav-dad{
+  background-color: white;
+  box-shadow: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav1 {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  gap: 15px;
 }
+
+.sesion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  margin-right: 20px;
+}
+
+.titulo {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.main-content{
+  background-color: white ;
+}
+
+.servicio{
+  display: block;
+}
+
+/* .imagen-service{
+  width: 600px;
+  height: 400px;
+} */
