@@ -3,6 +3,7 @@ import fondo from "../asset/servicio.png";
 import Form from "react-bootstrap/Form";
 
 
+
 function Table({ data }) {
 
 

@@ -21,8 +21,7 @@ export default function Students() {
 
 return (
   <div className="container">
-        <Horas data={students}/>
-        <Table data={students}/>
+        <Horas data={students}/>    
   </div>
 )
 
