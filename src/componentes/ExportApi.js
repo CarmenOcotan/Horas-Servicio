@@ -1,14 +1,15 @@
 import React from "react";
 import fondo from "../asset/servicio.png";
 import Form from "react-bootstrap/Form";
+import Table from 'react-bootstrap/Table';
 
 
 
-function Table({ data }) {
+function Table1({ data }) {
     return (
       <div className="tablas mt-5">
         <h5 className="mb-4">Horas de servicio registradas hasta la fecha</h5>
-        <table className="table table-hover tabla">
+        <<Table className="table table-hover">
           <thead>
             <tr>
               <th scope="col">Revisadas</th>
@@ -24,7 +25,7 @@ function Table({ data }) {
                 <th>
                   <Form>
                     {["checkbox"].map((type) => (
-                      <div key={`default-${type}`} className="mb-3">
+                      <div key={`default-${type}`} className="table-success mb-3">
                         <Form.Check
                           type={type} />
                       </div>))}
@@ -39,7 +40,7 @@ function Table({ data }) {
               </tr>
             ))}
           </tbody>
-        </table>
+        </Table>
         <img
           className="imagen-service w-100"
           src={fondo}
@@ -50,4 +51,4 @@ function Table({ data }) {
     );
   }
   
-  export default Table;
+  export default Table1;
