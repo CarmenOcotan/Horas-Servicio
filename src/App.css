@@ -1,46 +1,39 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Roboto', sans-serif;
 }
-
-/* Css para pagina de las horas */
-
-body {
+/* body {
+  min-height: 100%;
   background-color: #F2F3F7;
-  font-size: 17px;
+}
+ */
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #F2F3F7;
 }
 
+/* Css para el div de las horas */
+
+.cont-horas{
+  margin-top: 75px;
+  text-align: left;
+}
 
 .logo{
   width: 186px;
   height: 51px;
 }
 
-
-.nav {
-  display: flex;
-}
 .items{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* recuerda adaptar un position fixed para que se mueva el nav mientras se scrolea la pagina */
+.nav1 {
+  height: 70px;
+  font-size: 400;
 
-.nav-dad{
-  background-color: white;
-  box-shadow: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-}
-
-.navbar-nav1 {
-  display: flex;
-  align-items: center;
-  padding: 4px;
-  gap: 15px;
 }
 
 .sesion{
@@ -53,18 +46,48 @@ body {
 
 .titulo {
   margin-top: 30px;
-  font-size: 35px;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .main-content{
   background-color: white ;
+  border-radius: 0.5rem;
 }
 
 .servicio{
   display: block;
 }
 
-/* .imagen-service{
-  width: 600px;
-  height: 400px;
-} */
+.nav2 {
+  margin-top: 70px;
+  border: none;
+  background-color: #0f47ad;
+  height: 60px;
+
+}
+
+.lista {
+  color:#F2F3F7
+}
+
+.ll {
+  flex: none;
+  display: flex;
+  align-items: center;
+  color:#F2F3F7
+}
+
+.titulo-horas {
+  display: flex;
+  justify-content: center;
+}
+
+.tabla {
+  display: flex;
+  justify-content: center;
+}
+
+.lo {
+  height: 100%;
+}
