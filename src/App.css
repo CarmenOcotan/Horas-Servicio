@@ -1,8 +1,13 @@
 *{
   font-family: 'Roboto', sans-serif;
 }
-
+/* body {
+  min-height: 100%;
+  background-color: #F2F3F7;
+}
+ */
 .App {
+  min-height: 100vh;
   text-align: center;
   background-color: #F2F3F7;
 }
