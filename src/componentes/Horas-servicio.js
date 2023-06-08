@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import "../App.css";
 import { useState } from "react";
-import Table from "./ExportApi";
+import Table1 from "./ExportApi";
 
 function Horas({ data }) {
   const [inputValue, setInputValue] = useState("");
@@ -50,7 +50,8 @@ function Horas({ data }) {
     <div className="container lo cont-horas pt-5">
       <h3 className="titulo mb-4">Developer 4 - A</h3>
       <div className="main-content mb-5 border">
-        <Form className="servicio row m-3 pt-4 d-none w-75 g-2 flex-column">
+          //Agregar a la clase del Form un "d-none" para mostrar el formulario del id solo al Encargado o maestro
+        <Form className="servicio row m-3 pt-4  w-75 g-2 flex-column">
           <Row className="align-items-center">
             <Col xs="auto">
               <h6>Selecciona el Alumno por su Id</h6>
@@ -84,7 +85,7 @@ function Horas({ data }) {
         )}
 
         {/* arreglo de react a continuacion */}
-        <Table data={filteredData} />
+        <Table1 data={filteredData} />
 
       </div>
     </div>
