@@ -25,7 +25,7 @@ function Table1({ data }) {
                 <th>
                   <Form>
                     {["checkbox"].map((type) => (
-                      <div key={`default-${type}`} className="table-success mb-3">
+                      <div key={`default-${type}`} className={student.check ? 'table-success' : 'table-danger'}>
                         <Form.Check
                           type={type} />
                       </div>))}
