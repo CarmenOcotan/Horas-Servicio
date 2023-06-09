@@ -9,7 +9,7 @@ function Table1({ data }) {
     return (
       <div className="tablas mt-5">
         <h5 className="mb-4">Horas de servicio registradas hasta la fecha</h5>
-        <<Table className="table table-hover">
+        <Table className="table table-hover">
           <thead>
             <tr>
               <th scope="col">Revisadas</th>
