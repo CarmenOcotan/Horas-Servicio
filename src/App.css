@@ -91,3 +91,8 @@
 .lo {
   height: 100%;
 }
+
+.canvas {
+  width: 285px;
+  max-width: 285px;
+}

@@ -12,7 +12,7 @@ function Navb() {
             <Container fluid>
                 <Navbar.Brand href="#"><img src={logo} className="logo" alt="Funval Internacional"/></Navbar.Brand>
                 <Navbar.Toggle aria-controls=''/>
-                <Navbar.Offcanvas placement="end">
+                <Navbar.Offcanvas className='canvas'  placement="end">
                 <Offcanvas.Header closeButton>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
