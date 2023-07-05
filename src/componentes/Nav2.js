@@ -12,7 +12,7 @@ function Nav2() {
                     <Nav.Link className="text-white" href="#action2" disabled>Participantes</Nav.Link>
                     <Nav.Link className="text-white" href="#action1" disabled>Calificaciones</Nav.Link>
                     <Nav.Link className="text-white" href="#action2" disabled>Competencias</Nav.Link>
-                    <Nav.Link className="text-white hover2 ll" href="#action1">Horas de Servicio</Nav.Link>
+                    <Nav.Link className="text-white hover2 ll" href="./Login.js">Horas de Servicio</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

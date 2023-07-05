@@ -22,7 +22,7 @@ function Navb() {
                     <Nav.Link  disabled href="#action1">Mis cursos</Nav.Link>
                 </Nav>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                    <Nav.Link  href="#action1">Cerrar Sesion</Nav.Link> 
+                    <Nav.Link  href='/Login.js'>Cerrar Sesion</Nav.Link> 
                 </Nav>
                 </Offcanvas.Body>
                 </Navbar.Offcanvas>

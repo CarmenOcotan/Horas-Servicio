@@ -1,17 +1,21 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navb from './componentes/Nav';
-import Nav2 from './componentes/Nav2';
-import Students from './componentes/StudentsData.js/StudentsData';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Inicio from './inicio';
+import Logini from './componentes/Login.js';
 
 function App() {
   return (
     <div className="App">
-      <Navb/>
-      <Nav2/>      
-      <Students/>
+      <Router>
+        <Routes>
+          <Route path="/inicio" element={<Inicio />} />
+          <Route path="/" element={<Logini />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
 
 export default App;
+
